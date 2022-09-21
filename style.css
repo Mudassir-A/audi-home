@@ -1,0 +1,25 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(/css/audi-type.min.css);
+@import url(audi-core-ci-reset-and-basic.min.css);
+
+body {
+    font-family: AudiType,sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: gray;
+    text-decoration: none;
+    font-size: 16x;
+}
+
+.navbar a:hover {
+    color: black;
+}
