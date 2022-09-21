@@ -12,7 +12,7 @@ html {
 }
 
 .hero-image {
-    background-image: url("https://www.audi.in/content/dam/nemo/in/models/q3/xxxxxxx_Audi.in%20Q3_1920X1920.jpg?imwidth=1920");
+    background-image: url("./audiQ3.jpg");
     height: 95%;
     width: 100%;
     background-position: center;
