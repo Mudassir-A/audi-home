@@ -1,14 +1,15 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
-@import url(/css/audi-type.min.css);
+@import url('http://fonts.cdnfonts.com/css/audi-type-2');
 @import url(audi-core-ci-reset-and-basic.min.css);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 body,
 html {
-    font-family: AudiType, sans-serif;
+    font-family: 'Audi Type', sans-serif;
     height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .hero-image {
@@ -49,4 +50,19 @@ html {
 .hero-text button:hover {
     background-color: #555;
     color: white;
+}
+
+.models {
+    display: flex;
+    flex-wrap: no-wrap;
+    overflow-x: auto;
+    margin: 20px;
+}
+
+.models img {
+    flex: 0 0 auto;
+    width: auto;
+    height: 100px;
+    max-width: 100%;
+    margin-right: 10px;
 }
