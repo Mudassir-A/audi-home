@@ -3,6 +3,7 @@
 @import url(audi-core-ci-reset-and-basic.min.css);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body,
 html {
@@ -19,6 +20,45 @@ html {
     background-position: center;
     background-size: cover;
     position: relative;
+}
+
+.avs {
+    display: flex;
+    transition: 10s;
+}
+
+.avs img {
+    width: 575px;
+    height: 600px;
+    padding-left: 175px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.avs-text {
+    position: relative;
+    top: 325px;
+    left: 60px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+}
+
+.avs-text button {
+    border: none;
+    outline: 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px 4px 32px 0px;
+    padding: 21px 48px;
+    font-size: 18px;
+}
+
+.avs-text button:hover {
+    background-color: #555;
+    color: white;
 }
 
 .hero-text {
@@ -52,6 +92,7 @@ html {
     color: white;
 }
 
+
 .models {
     display: flex;
     flex-wrap: no-wrap;
@@ -65,4 +106,83 @@ html {
     height: 100px;
     max-width: 100%;
     margin-right: 10px;
+}
+
+.card {
+    position: sticky;
+    max-width: 600px;
+    width: 43%;
+    /* height: 23%; */
+    background-color: white;
+    left: 50px;
+    top: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+
+.card h1 {
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card p {
+    margin-top: 30px;
+    padding-left: 40px;
+    font-family: "Raleway", sans-serif;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#b1 {
+    border: none;
+    outline: 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px 4px 32px 0px;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 21px 48px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#b1:hover {
+    background-color: #555;
+    color: white;
+}
+
+#b2 {
+    border: solid 1px #000;
+    outline: 0;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px 4px 32px 0px;
+    margin-left: 1px;
+    margin-top: 30px;
+    padding: 21px 48px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#b2:hover {
+    color: #777;
+}
+
+.bg-image {
+    height: 80%;
+    padding-block-start: 500px;
+    padding-block-end: 200px;
+    background-image: url("./E-tronHub-3840X4000.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
