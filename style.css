@@ -13,14 +13,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.hero-image {
-    background-image: url("./audiQ3.jpg");
-    height: 95%;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
+
 
 .avs {
     display: flex;
@@ -61,6 +54,76 @@ html {
     color: white;
 }
 
+.ar {
+    display: flex;
+    transition: 10s;
+}
+
+.ar img {
+    width: 75%;
+    height: 60%;
+    padding-left: 175px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.ar-text {
+    position: relative;
+    top: 325px;
+    left: 60px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+}
+
+.ar-btn1 {
+    border: none;
+    outline: 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px 4px 32px 0px;
+    margin-left: 00px;
+    margin-top: 30px;
+    padding: 21px 48px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ar-btn1:hover {
+    background-color: #555;
+    color: white;
+}
+
+.ar-btn2 {
+    border: solid 1px #000;
+    outline: 0;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px 4px 32px 0px;
+    margin-left: 1px;
+    margin-top: 30px;
+    padding: 21px 48px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ar-btn2:hover {
+    color: #777;
+}
+
+.hero-image {
+    background-image: url("./audiQ3.jpg");
+    height: 95%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 .hero-text {
     position: absolute;
     top: 8px;
@@ -91,7 +154,6 @@ html {
     background-color: #555;
     color: white;
 }
-
 
 .models {
     display: flex;
@@ -185,4 +247,23 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.audi-connect {
+    background-size: cover;
+    background-color: #000;
+}
+
+.audi-connect img {
+    width: 675.833;
+    height: 948;
+    margin-left: 400px;
+    padding-left: 400px;
+    float: right;
+    background-color: #000;
+}
+
+.actxt {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
