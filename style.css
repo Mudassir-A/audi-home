@@ -307,3 +307,39 @@ img {
 .actext {
     margin-bottom: 75px;
 }
+
+
+/* The grid: Four equal columns that floats next to each other */
+.gallery-column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.gallery-column img {
+    cursor: pointer;
+    height: 90%;
+}
+
+.gallery-column h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.gallery-column a {
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.gallerytxt {
+    padding-left: 60px;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: center;
+}
