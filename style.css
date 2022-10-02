@@ -13,8 +13,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
 .avs {
     display: flex;
     transition: 10s;
@@ -250,15 +248,15 @@ html {
 }
 
 .audi-connect {
-    background-size: cover;
     background-color: #000;
+    display: flex;
 }
 
 .audi-connect img {
     width: 675.833;
     height: 948;
     margin-left: 400px;
-    padding-left: 400px;
+    /* padding-left: 400px; */
     float: right;
     background-color: #000;
 }
@@ -266,4 +264,9 @@ html {
 .actxt {
     font-family: 'Montserrat', sans-serif;
     color: white;
+}
+
+.actxt p{
+    font-family: 'Audi Type', sans-serif;
+    font-size: 25px;
 }
