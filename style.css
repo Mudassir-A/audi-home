@@ -247,26 +247,56 @@ html {
     background-size: cover;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 .audi-connect {
-    background-color: #000;
     display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: black;
+    /* margin: 0; */
+    /* padding: 0; */
 }
 
-.audi-connect img {
-    width: 675.833;
-    height: 948;
-    margin-left: 400px;
-    /* padding-left: 400px; */
+img {
+    max-width: 100%;
     float: right;
-    background-color: #000;
+    padding-left: 500px;
 }
 
-.actxt {
+.acimg {
+    flex-basis: 150%;
+    order: 2;
+}
+
+.actext h1 {
+    color: #fff;
+    margin-left: 75px;
+    padding-right: 100px;
     font-family: 'Montserrat', sans-serif;
-    color: white;
 }
 
-.actxt p{
-    font-family: 'Audi Type', sans-serif;
-    font-size: 25px;
+.actext h2 {
+    color: #fff;
+    margin-left: 75px;
+    padding-right: 100px;
+    font-size: 35px;
+    font-family: "Raleway", sans-serif;
+}
+
+.actext button {
+    color: #fff;
+    background-color: #000;
+    margin-left: 75px;
+    padding: 14px 36px;
+    font-size: 15px;
+}
+
+#acb2 {
+    margin-left: 10px;
+}
+
+.actext {
+    margin-bottom: 75px;
 }
