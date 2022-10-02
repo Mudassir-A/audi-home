@@ -291,6 +291,13 @@ img {
     margin-left: 75px;
     padding: 14px 36px;
     font-size: 15px;
+    cursor: pointer;
+}
+
+.actext button:hover {
+    color: #888;
+    border-color: #888;
+    transition: 0.3s;
 }
 
 #acb2 {
