@@ -1,16 +1,16 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
-@import url('http://fonts.cdnfonts.com/css/audi-type-2');
+@import url("http://fonts.cdnfonts.com/css/audi-type-2");
 @import url(audi-core-ci-reset-and-basic.min.css);
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
 body,
 html {
-    font-family: 'Audi Type', sans-serif;
+    font-family: "Montserrat", sans-serif;
     height: 100%;
     margin: 0;
     scroll-behavior: smooth;
+    /* background-color: whitesmoke; */
 }
 
 .avs {
@@ -31,7 +31,7 @@ html {
     top: 325px;
     left: 60px;
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     align-items: center;
 }
 
@@ -70,7 +70,7 @@ html {
     top: 325px;
     left: 60px;
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     align-items: center;
 }
 
@@ -86,7 +86,7 @@ html {
     margin-top: 30px;
     padding: 21px 48px;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .ar-btn1:hover {
@@ -106,7 +106,7 @@ html {
     margin-top: 30px;
     padding: 21px 48px;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .ar-btn2:hover {
@@ -127,7 +127,7 @@ html {
     top: 8px;
     left: 60px;
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
 }
 
 .hero-text button {
@@ -143,7 +143,7 @@ html {
 }
 
 .hero-text p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 25px;
     margin-top: 0;
 }
@@ -152,6 +152,7 @@ html {
     background-color: #555;
     color: white;
 }
+
 
 .models {
     display: flex;
@@ -180,12 +181,11 @@ html {
     transition: 0.3s;
 }
 
-
 .card h1 {
     text-align: left;
     padding-left: 40px;
     padding-top: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .card p {
@@ -210,7 +210,7 @@ html {
     margin-top: 30px;
     padding: 21px 48px;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 #b1:hover {
@@ -230,7 +230,7 @@ html {
     margin-top: 30px;
     padding: 21px 48px;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 #b2:hover {
@@ -247,19 +247,14 @@ html {
     background-size: cover;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
 .audi-connect {
     display: flex;
     align-items: flex-end;
     justify-content: center;
     background-color: black;
-    /* margin: 0; */
-    /* padding: 0; */
 }
 
-img {
+.acimg img {
     max-width: 100%;
     float: right;
     padding-left: 500px;
@@ -269,6 +264,7 @@ img {
     flex-basis: 150%;
     order: 2;
 }
+
 
 .actext h1 {
     color: #fff;
@@ -307,7 +303,6 @@ img {
 .actext {
     margin-bottom: 75px;
 }
-
 
 /* The grid: Four equal columns that floats next to each other */
 .gallery-column {
