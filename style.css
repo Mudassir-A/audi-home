@@ -338,13 +338,3 @@ html {
     display: flex;
     justify-content: center;
 }
-
-.fa {
-    padding: 7px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    /* margin: 5px 2px; */
-    color: white;
-  }
