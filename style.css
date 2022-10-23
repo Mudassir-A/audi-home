@@ -283,11 +283,14 @@ html {
 
 .actext button {
     color: #fff;
+    border-color: white;
     background-color: #000;
     margin-left: 75px;
     padding: 14px 36px;
     font-size: 15px;
     cursor: pointer;
+    margin-bottom: 75px;
+
 }
 
 .actext button:hover {
@@ -300,9 +303,6 @@ html {
     margin-left: 10px;
 }
 
-.actext {
-    margin-bottom: 75px;
-}
 
 /* The grid: Four equal columns that floats next to each other */
 .gallery-column {
