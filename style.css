@@ -320,14 +320,15 @@ html {
 .gallery-column h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    margin: 0;
+    margin-bottom: 10;
+    margin-top: 0;
 }
 
 .gallery-column a {
     text-decoration: none;
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .gallerytxt {
@@ -335,6 +336,44 @@ html {
 }
 
 .gallery-row {
+    display: flex;
+    justify-content: center;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.press-column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.press-column img {
+    cursor: pointer;
+    height: 90%;
+}
+
+.press-column h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10;
+    margin-top: 0;
+
+}
+
+.press-column a {
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.presstxt {
+    margin-top: 75px;
+    padding-left: 60px;
+}
+
+.press-row {
     display: flex;
     justify-content: center;
 }
