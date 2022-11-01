@@ -36,7 +36,7 @@ html {
 }
 
 .avs-text button {
-    border: none;
+    border: 1px solid black;
     outline: 0;
     color: white;
     background-color: black;
@@ -75,7 +75,7 @@ html {
 }
 
 .ar-btn1 {
-    border: none;
+    border: 1px solid black;
     outline: 0;
     color: white;
     background-color: black;
@@ -131,7 +131,7 @@ html {
 }
 
 .hero-text button {
-    border: none;
+    border: 2px solid black;
     outline: 0;
     color: white;
     background-color: black;
@@ -148,10 +148,10 @@ html {
     margin-top: 0;
 }
 
-.hero-text button:hover {
+/* .hero-text button:hover {
     background-color: #555;
     color: white;
-}
+} */
 
 
 .models {
@@ -199,7 +199,7 @@ html {
 }
 
 #b1 {
-    border: none;
+    border: 1px solid black;
     outline: 0;
     color: white;
     background-color: black;
