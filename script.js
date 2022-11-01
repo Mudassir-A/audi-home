@@ -2,10 +2,8 @@ var btn = document.getElementsByClassName("hoverbtns");
 
 for (let i = 0; i < btn.length; i++) {
     btn[i].addEventListener("mouseover", function () {
-        btn[i].style.backgroundColor = "white";
-        btn[i].style.color = "black";
-        btn[i].style.transition = "0.5s ease";
-        btn[i].style.borderColor = "black"
+        btn[i].style.backgroundColor = "#555";
+        btn[i].style.transition = "0.3s ease";
     });
 
     btn[i].addEventListener("mouseout", function () {
@@ -17,9 +15,10 @@ for (let i = 0; i < btn.length; i++) {
     });
 }
 
-// function scrolltop() {
-//     scrollTo(0, 0)
-// }
+
+function scrolltop() {
+    scrollTo(0, 0)
+}
 // function scrolled() {
 //     document.getElementById("fil").style.position = "sticky"
 // }
