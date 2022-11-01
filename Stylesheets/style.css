@@ -114,7 +114,7 @@ html {
 }
 
 .hero-image {
-    /* background-image: url("../image/audiQ3.jpg"); */
+    /* background-image: url("../Images/audiQ3.jpg"); */
     height: 95%;
     width: 100%;
     background-position: center;
@@ -239,9 +239,9 @@ html {
 
 .bg-image {
     height: 80%;
-    padding-block-start: 500px;
-    padding-block-end: 200px;
-    /* background-image: url("../image/E-tronHub-3840X4000.jpg");  */
+    padding-block-start: 100px;
+    padding-block-end: 100px;
+    /* background-image: url("../Images/E-tronHub-3840X4000.jpg");  */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
