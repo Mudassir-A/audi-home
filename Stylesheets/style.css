@@ -10,6 +10,7 @@ html {
     height: 100%;
     margin: 0;
     scroll-behavior: smooth;
+    /* background-color: whitesmoke; */
 }
 
 .avs {
@@ -35,7 +36,7 @@ html {
 }
 
 .avs-text button {
-    border: 1px solid black;
+    border: none;
     outline: 0;
     color: white;
     background-color: black;
@@ -44,6 +45,11 @@ html {
     margin: 0px 4px 32px 0px;
     padding: 21px 48px;
     font-size: 18px;
+}
+
+.avs-text button:hover {
+    background-color: #555;
+    color: white;
 }
 
 .ar {
@@ -69,7 +75,7 @@ html {
 }
 
 .ar-btn1 {
-    border: 1px solid black;
+    border: none;
     outline: 0;
     color: white;
     background-color: black;
@@ -81,6 +87,11 @@ html {
     padding: 21px 48px;
     font-size: 18px;
     font-family: "Montserrat", sans-serif;
+}
+
+.ar-btn1:hover {
+    background-color: #555;
+    color: white;
 }
 
 .ar-btn2 {
@@ -98,7 +109,12 @@ html {
     font-family: "Montserrat", sans-serif;
 }
 
+.ar-btn2:hover {
+    color: #777;
+}
+
 .hero-image {
+    /* background-image: url("../image/audiQ3.jpg"); */
     height: 95%;
     width: 100%;
     background-position: center;
@@ -111,6 +127,7 @@ html {
     top: 8px;
     left: 60px;
     color: black;
+    /* font-family: "Montserrat", sans-serif; */
 }
 
 .hero-text button {
@@ -131,6 +148,12 @@ html {
     margin-top: 0;
 }
 
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
+
 .models {
     display: flex;
     flex-wrap: no-wrap;
@@ -150,6 +173,7 @@ html {
     position: sticky;
     max-width: 600px;
     width: 43%;
+    /* height: 23%; */
     background-color: white;
     left: 50px;
     top: 300px;
@@ -175,7 +199,7 @@ html {
 }
 
 #b1 {
-    border: 1px solid black;
+    border: none;
     outline: 0;
     color: white;
     background-color: black;
@@ -187,6 +211,11 @@ html {
     padding: 21px 48px;
     font-size: 18px;
     font-family: "Montserrat", sans-serif;
+}
+
+#b1:hover {
+    background-color: #555;
+    color: white;
 }
 
 #b2 {
@@ -204,10 +233,15 @@ html {
     font-family: "Montserrat", sans-serif;
 }
 
+#b2:hover {
+    color: #777;
+}
+
 .bg-image {
     height: 80%;
-    padding-block-start: 100px;
-    padding-block-end: 100px;
+    padding-block-start: 500px;
+    padding-block-end: 200px;
+    /* background-image: url("../image/E-tronHub-3840X4000.jpg");  */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -259,16 +293,25 @@ html {
 
 }
 
+.actext button:hover {
+    color: #888;
+    border-color: #888;
+    transition: 0.3s;
+}
+
 #acb2 {
     margin-left: 10px;
 }
 
+
+/* The grid: Four equal columns that floats next to each other */
 .gallery-column {
     float: left;
     width: 30%;
     padding: 10px;
 }
 
+/* Style the images inside the grid */
 .gallery-column img {
     cursor: pointer;
     height: 90%;
@@ -297,12 +340,14 @@ html {
     justify-content: center;
 }
 
+/* The grid: Four equal columns that floats next to each other */
 .press-column {
     float: left;
     width: 30%;
     padding: 10px;
 }
 
+/* Style the images inside the grid */
 .press-column img {
     cursor: pointer;
     height: 90%;

@@ -10,13 +10,14 @@ html {
   height: 100%;
   margin: 0;
   scroll-behavior: smooth;
+  /* background-color: whitesmoke; */
 }
-
 .model-title {
   position: absolute;
   top: 70px;
   left: 60px;
   color: black;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 .filter {
@@ -27,8 +28,7 @@ html {
   top: 220px;
   background-color: black;
 }
-
-.filter img {
+.filter img{
   width: 20px;
   height: 15px;
   position: relative;
@@ -43,7 +43,6 @@ html {
   top: 10px;
   font-size: 25px;
 }
-
 .models {
   display: flex;
   flex-wrap: no-wrap;
@@ -64,7 +63,6 @@ html {
   top: 400px;
   left: -30px;
 }
-
 .modelfinder img {
   height: 70%;
   width: 70%;
@@ -75,17 +73,23 @@ html {
   top: 330px;
   left: -20px;
 }
-
+/* .modeltitle img{
+  position: absolute;
+  top: 900px;
+} */
 .modelspane {
   background-color: white;
   height: 350px;
   width: 400px;
+  /* padding-top: 150px ; */
   padding-left: 20px;
+  /* padding-right: 30px;
+  padding-bottom: 20px;  */
   position: absolute;
   left: 490px;
   top: 340px;
+  /* padding: 70px; */
 }
-
 .button {
   position: relative;
   background-color: white;
@@ -96,7 +100,16 @@ html {
   box-shadow: 5px 5px 5px gray;
 }
 
-.paneimg {
+/* .button:hover {
+  transition-duration: 2ms;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 0px;
+  transition: 0.5s;
+} */
+
+.paneimg {  
   height: 50%;
   width: 100%;
   position: relative;
@@ -104,22 +117,40 @@ html {
   left: 0px;
 }
 
+/* .paneimg:hover {
+  height: 70%;
+  width: 150%;
+  position: relative;
+  top: 20px;
+  left:-20px;
+  transform: scale(1.2);
+  transition: 0.5s;
+} */
+
 .modelspaner {
   background-color: white;
   height: 350px;
   width: 400px;
+  /* padding-top: 150px ; */
   padding-left: 20px;
+  /* padding-right: 30px;
+  padding-bottom: 20px;  */
   position: absolute;
   left: 920px;
   top: 340px;
+  /* padding: 70px; */
 }
 
 .modelspanel {
   background-color: white;
   height: 350px;
   width: 400px;
+  /* padding-top: 150px ; */
   padding-left: 20px;
+  /* padding-right: 30px;
+  padding-bottom: 20px;  */
   position: absolute;
   left: 60px;
   top: 1140px;
+  /* padding: 70px; */
 }

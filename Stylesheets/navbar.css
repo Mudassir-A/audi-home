@@ -1,11 +1,17 @@
+@import url('http://fonts.cdnfonts.com/css/audi-type-2');
+
 .navbar {
+  /* width: 100%; */
   background-color: #ffffff;
   overflow: auto;
-  padding-left: 80px;
+  /* margin-left: 0px; */
   padding-top: 9px;
+  padding-left: 80px;
   padding-bottom: 10px;
+  /* padding: 10px; */
   font-family: 'Audi Type', sans-serif;
 }
+
 
 .navbar a {
   float: left;
@@ -21,4 +27,14 @@
 
 .navbar a:hover {
   color: black;
+}
+.login{
+  position:absolute;
+  left: 560px;
+  top: 13px;
+}
+
+.login img{
+  width: 20px;
+  height: 20px;
 }
