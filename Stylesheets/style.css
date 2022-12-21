@@ -1,12 +1,7 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
-@import url("http://fonts.cdnfonts.com/css/audi-type-2");
-@import url(audi-core-ci-reset-and-basic.min.css);
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body,
 html {
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     height: 100%;
     margin: 0;
     scroll-behavior: smooth;
@@ -31,7 +26,7 @@ html {
     top: 325px;
     left: 60px;
     color: black;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     align-items: center;
 }
 
@@ -70,7 +65,7 @@ html {
     top: 325px;
     left: 60px;
     color: black;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     align-items: center;
 }
 
@@ -86,7 +81,7 @@ html {
     margin-top: 30px;
     padding: 21px 48px;
     font-size: 18px;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 .ar-btn1:hover {
@@ -106,7 +101,7 @@ html {
     margin-top: 30px;
     padding: 21px 48px;
     font-size: 18px;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 .ar-btn2:hover {
@@ -127,7 +122,7 @@ html {
     top: 8px;
     left: 60px;
     color: black;
-    /* font-family: "Montserrat", sans-serif; */
+    /*font-family: 'Poppins', sans-serif; */
 }
 
 .hero-text button {
@@ -143,7 +138,7 @@ html {
 }
 
 .hero-text p {
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     font-size: 25px;
     margin-top: 0;
 }
@@ -185,7 +180,7 @@ html {
     text-align: left;
     padding-left: 40px;
     padding-top: 30px;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 .card p {
@@ -210,7 +205,7 @@ html {
     margin-top: 30px;
     padding: 21px 48px;
     font-size: 18px;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 #b1:hover {
@@ -230,7 +225,7 @@ html {
     margin-top: 30px;
     padding: 21px 48px;
     font-size: 18px;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 #b2:hover {

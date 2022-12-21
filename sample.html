@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.models {
+			display: flex;
+			flex-wrap: no-wrap;
+			overflow-x: auto;
+			margin: 24px;
+		}
+
+		.models img {
+			flex: 0 0 auto;
+			width: auto;
+			height: 90px;
+			max-width: 100%;
+			margin-right: 17px;
+		}
+
+		.models img:hover, .desc {
+			transform: scale(1.2);
+			transition: 0.3s;
+			display: block;
+		}
+	</style>
+
+	<script>
+		function hoveroncar() {
+			var img = document.getElementsByClassName('carimgs')
+
+			img[i].addEventListener("mouseover", function () {
+				img[i].style.transform = "scale(1.2)";
+				img[i].style.transition = "0.3s ease";
+			});
+		}
+	</script>
+</head>
+
+<body>
+	<div class="models">
+			<img class="carimgs" src="Images/etroncatalunyared_sv.png" onmouseenter="hoveroncar" alt="e-tron GT" />
+			<div class="desc">Beautiful Cinque Terre</div>
+			<img class="carimgs" src="Images/A4navarrablue_sv.png" />
+			<img class="carimgs" src="Images/etroncatalunyared_sv.png.png" />
+			<img class="carimgs" src="Images/2023.png" />
+			<img class="carimgs" src="Images/A8Lvesuviusgrey_sv.png.png" />
+			<img class="carimgs" src="Images/A4navarrablue_sv.png" />
+			<img class="carimgs" src="Images/A4navarrablue_sv.png" />
+	</div>
+</body>
+
+</html>

@@ -149,8 +149,31 @@ function showSlides(n, no) {
         slideIndex[no] = x.length
     }
     for (i = 0; i < x.length; i++) {
-        
+
         x[i].style.display = "none";
     }
     x[slideIndex[no] - 1].style.display = "block";
-} 
+}
+
+function unique() {
+    document.getElementById("colr").src = "Images/etrongrad.png";
+    p1.innerHTML = "Kemora Grey Metallic"
+    
+}
+function red() {
+    document.getElementById("colr").src = "Images/red.jpeg"
+    p1.innerHTML = "Tango Red Metallic"
+    
+}
+function white() {
+    document.getElementById("colr").src = "Images/white.png"
+    p1.innerHTML = "Ibis White Metallic"
+}
+function creme() {
+    document.getElementById("colr").src = "Images/creme.jpeg"
+    p1.innerHTML = "Suzuka Grey Metallic"
+}
+function blue() {
+    document.getElementById("colr").src = "Images/blue.jpeg"
+    p1.innerHTML = "Ascari Blue Metallic"
+}

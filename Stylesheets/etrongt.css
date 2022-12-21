@@ -1,12 +1,9 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
-@import url("http://fonts.cdnfonts.com/css/audi-type-2");
-@import url(audi-core-ci-reset-and-basic.min.css);
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+ 
 body,
 html {
-  font-family: "Montserrat", sans-serif;
+ font-family: 'Poppins', sans-serif;
   height: 100%;
   margin: 0;
   scroll-behavior: smooth;
@@ -26,7 +23,7 @@ html {
   top: 480px;
   left: 60px;
   color: black;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 #b1 {
   border: none;
@@ -44,7 +41,7 @@ html {
   padding-left: 35px;
   padding-bottom: 20px;
   padding-right: 35px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
   position: relative;
   top: -55px;
   left: -40px;
@@ -71,7 +68,7 @@ html {
   padding-left: 35px;
   padding-bottom: 20px;
   padding-right: 35px;
-  font-family: "Montserrat", sans-serif;
+ font-family: 'Poppins', sans-serif;
   position: relative;
   top: -55px;
   left: -80px;
@@ -118,7 +115,7 @@ html {
   top: 1130px;
   left: 60px;
   /* color: black; */
-  /* font-family: "Montserrat", sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 .white-space {
@@ -143,7 +140,7 @@ html {
   top: 300px;
   left: 75px;
   /* padding-right: 100px; */
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .cen-text button {
   color: #fff;
@@ -152,7 +149,7 @@ html {
   padding: 14px 36px;
   font-size: 15px;
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .cen-text button:hover {
@@ -211,7 +208,7 @@ html {
   color: white;
   position: absolute;
   margin-top: 340px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .txt-carousel {
   padding-left: 30px;
@@ -240,7 +237,7 @@ html {
   height: 690px;
 }
 
- .in-img-carousel img { 
+.in-img-carousel img {
   float: left;
   position: absolute;
   left: 659px;
@@ -256,8 +253,48 @@ html {
   color: white;
   position: absolute;
   margin-top: 340px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .in-txt-carousel {
   padding-left: 30px;
+}
+
+.white {
+  background-color: white;
+  position: relative;
+  padding: 50px;
+}
+.color{
+  background: white;
+}
+
+.color img {
+  width: 100%;
+  height: 100%;
+}
+.color-pick {
+  margin-top: 20px;
+  margin-left: 480px;
+}
+.color-pick img {
+  height: 60px;
+  /* padding-left: 20px; */
+  margin-left: 20px;
+  border: solid;
+}
+.end{
+  background: #000;
+}
+
+.end {
+  height: 500px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.end img {
+  float: left;
+  height: 400px;
+  padding: 20px;
+  margin-top: 20px;
 }
